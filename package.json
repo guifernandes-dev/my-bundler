@@ -1,0 +1,33 @@
+{
+  "name": "my-bundler",
+  "version": "1.0.0",
+  "description": "exemplo de bundler criado para o curso de Front-End da minha pós-graduação em Engenharia de Software",
+  "homepage": "https://github.com/guifernandes-dev/my-bundler#readme",
+  "bugs": {
+    "url": "https://github.com/guifernandes-dev/my-bundler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guifernandes-dev/my-bundler.git"
+  },
+  "license": "ISC",
+  "author": "Guilherme Fernandes",
+  "build": "webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "npx http-server ."
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "webpack-cli": "^7.2.3",
+    "sass": "^1.105.2",
+    "webpack": "^5.112.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
+  }
+}
